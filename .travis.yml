@@ -1,0 +1,12 @@
+language: java
+branches:
+  only:
+    - develop
+    - /^release-[0-999].[0-999]/
+    - master
+notifications:
+  email:
+    recipients:
+      - brotherowsky@gmail.com
+script:
+  - mvn verify
