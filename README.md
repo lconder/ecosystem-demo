@@ -2,6 +2,8 @@
 ## Ingeniería Web: Visión General (IWVG) DevOps
 > Este proyecto es una Plantilla de apoyo docente de la asignatura.
 
+[![Build Status](https://travis-ci.org/lconder/ecosystem-demo.svg?branch=develop)](https://travis-ci.org/lconder/ecosystem-demo)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=lconder_ecosystem-demo&metric=alert_status)](https://sonarcloud.io/dashboard?id=lconder_ecosystem-demo)
 ### :gear: Instalación del proyecto
 1. Clonar el repositorio en tu equipo, **mediante consola**:
 ```sh
