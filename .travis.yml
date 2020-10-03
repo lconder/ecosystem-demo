@@ -11,4 +11,4 @@ notifications:
       - brotherowsky@gmail.com
 script:
   - mvn org.jacoco:jacoco-maven-plugin:prepare-agent verify
-  - mvn sonar:sonar -Dsonar.host.url=https://sonarcloud.io -Dsonar.organization=lconder -Dsonar.login=9e1f3e44b667ddf2fa5476739fb5f88258ac73b7
+  - mvn sonar:sonar -Dsonar.host.url=https://sonarcloud.io -Dsonar.organization=lconder -Dsonar.login=$SONAR
