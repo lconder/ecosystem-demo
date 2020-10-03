@@ -18,5 +18,6 @@ deploy:
   api_key:
     secure: $HEROKU
   on:
+    repo: lconder/ecosystem-demo
     branch: master
   app: ecosystem-demo-lconder
