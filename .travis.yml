@@ -20,4 +20,4 @@ deploy:
   on:
     repo: lconder/ecosystem-demo
     branch: master
-  app: ecosystem-demo-lconder
+  app: ecosystemdemo
