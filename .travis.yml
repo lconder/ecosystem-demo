@@ -15,8 +15,7 @@ script:
   -Dsonar.projectKey=lconder_ecosystem-demo -Dsonar.login=$SONAR
 deploy:
   provider: heroku
-  api_key:
-    secure: $HEROKUENC
+  api_key: $HEROKU
   app: ecosystemdemo
   on:
     repo: lconder/ecosystem-demo
